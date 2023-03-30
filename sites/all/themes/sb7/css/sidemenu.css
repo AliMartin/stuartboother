@@ -1,0 +1,63 @@
+/*
+ * Side Menu
+ */
+
+.mmenu-nav.mm-basic {
+	font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.mmenu-nav.mm-basic > ul {
+	background-image: url("../images/menu-background.png");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+li.mmenu-expanded,
+#mmenu_left i {
+	display: none;
+}
+
+#mmenu_left {
+	border-right: 3px #ff9900 solid;
+}
+
+.mmenu-nav.mm-basic > .mm-header .mm-title {
+    width: 100%;
+}
+
+.mmenu-nav.mm-basic > .mm-header {
+	padding: 0 10px;
+	background: inherit;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.mmenu-nav.mm-basic > .mm-footer {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+.mm-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.mm-title span {
+	color: #ff9900;
+}
+
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults)::after {
+    border-bottom-style: none;
+}
+
+.mmenu-nav.mm-basic > .mm-list li {
+    border-bottom: none;
+    border-top: 1px solid #242424;
+}
+

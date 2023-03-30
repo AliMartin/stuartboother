@@ -1,0 +1,33 @@
+/*
+ * Pagination
+ */
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background: #869791 none repeat scroll 0 0;
+    opacity: 0.5;
+    color: #ffffff;
+	border: none;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+	border: none;
+    background: #869791 none repeat scroll 0 0;
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    background: #ff9900 none repeat scroll 0 0;	
+    opacity: 1;
+    border: none;
+    color: #ffffff;
+}
