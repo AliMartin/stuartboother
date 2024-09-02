@@ -32,3 +32,5 @@ stylesheets[all][] = css/sitemenu.css
 stylesheets[all][] = css/sidemenu.css
 stylesheets[all][] = css/pagination.css
 stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/cookies.css
+
